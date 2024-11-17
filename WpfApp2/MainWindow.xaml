@@ -26,10 +26,6 @@
         <Button Content="7" Background="#87CEFA" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="185,192,365,223" Click ="Button_Click" />
         <Button Content="8" Background="#87CEFA" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="252,191,298,224" Click ="Button_Click"  />
         <Button Content="9" Background="#87CEFA" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="320,191,228,224" Click ="Button_Click"/>
-
-
-        <Button Content="+" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="385,312,170,103"  Click ="Button_Click"  />
-        <Button Content="-" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="385,272,170,143" Click ="Button_Click"/>
         <Button Content="x" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="385,232,170,183" Click ="Button_Click"/>
         <Button Content="/" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="385,192,170,223" Click ="Button_Click"/>
 
@@ -37,7 +33,12 @@
         <Button Content="=" Background="#32CD32" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkGreen" BorderThickness="2" Margin="307,312,228,103"  Click ="eq_fun"/>
         <Button Content="Del" Background="#FF6347" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkRed" BorderThickness="2" Margin="185,147,365,268" Click="Button_Click_1"/>
         <Button Content="Clear" Background="#FF6347" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkRed" BorderThickness="2" Margin="380,147,170,268" Click="Button_Click_2" />
-        <TextBox  Name ="Display" FontSize="20" FontFamily="Bold" HorizontalAlignment="Left" Margin="240,147,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" Height="35" BorderBrush="Black" BorderThickness="3" />
+        <TextBox  x:Name ="Display1" FontSize="20" FontFamily="Bold" HorizontalAlignment="Left" Margin="240,147,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" Height="35" BorderBrush="Black" BorderThickness="3" />
+        <Button Content="x" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="165,77,390,338" Click ="Button_Click"/>
+        <Button Content="x" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="422,304,133,111" Click ="Button_Click"/>
+        <Button Content="x" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="188,42,368,373" Click ="Button_Click"/>
+        <Button Content="x" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="138,42,417,373" Click ="Button_Click"/>
+        <Button Content="x" Background="#4682B4" Height="35" Foreground="White" FontSize="20" BorderBrush="DarkBlue" BorderThickness="2" Margin="165,112,390,303" Click ="Button_Click"/>
 
     </Grid>
 </Window>
